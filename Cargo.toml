@@ -2,6 +2,14 @@
 name = "tokio-throttle"
 version = "0.1.0"
 edition = "2024"
+authors = ["misaka10987 <misaka10987@outlook.com>"]
+description = "A simple throttling utility through a lightweight smart-pointer wrapper around `tokio::sync::Semaphore`."
+documentation = "https://github.com/misaka10987/tokio-throttle"
+homepage = "https://github.com/misaka10987/tokio-throttle"
+repository = "https://github.com/misaka10987/tokio-throttle"
+readme = "README.md"
+keywords = ["tokio", "sync", "semaphore", "throttle", "limit"]
+license = "MIT"
 
 [dependencies]
 tokio = { version = "1.53.1", features = ["sync"] }
